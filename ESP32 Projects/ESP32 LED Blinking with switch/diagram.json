@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Singaraya Santhosh Kumar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 38.4, "left": -91.16, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -70.8,
+      "left": -63.4,
+      "attrs": { "color": "red" }
+    },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": 23.6, "left": 147.1, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "esp:GND.2", "green", [ "v57.6", "h58" ] ],
+    [ "led1:A", "sw1:1", "green", [ "v38.4", "h163.2", "v96", "h28.8" ] ],
+    [ "sw1:3", "esp:D3", "green", [ "v0" ] ],
+    [ "sw1:1", "esp:5V", "green", [ "v220.8", "h-249.6" ] ]
+  ],
+  "dependencies": {}
+}

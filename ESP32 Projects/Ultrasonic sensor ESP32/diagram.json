@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "author": "Singaraya Santhosh Kumar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 105.6, "left": -62.36, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -56.1, "left": -42.5, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "ultrasonic1:VCC", "esp:3V3", "red", [ "v28.8", "h-105.6" ] ],
+    [ "ultrasonic1:TRIG", "esp:5", "green", [ "v76.8", "h38", "v105.6" ] ],
+    [ "ultrasonic1:ECHO", "esp:18", "green", [ "v67.2", "h47.2", "v96" ] ],
+    [ "ultrasonic1:GND", "esp:GND.2", "black", [ "v57.6", "h56.4", "v38.4" ] ]
+  ],
+  "dependencies": {}
+}

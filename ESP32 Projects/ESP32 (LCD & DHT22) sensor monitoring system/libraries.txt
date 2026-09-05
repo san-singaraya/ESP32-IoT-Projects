@@ -1,0 +1,10 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+LiquidCrystal I2C
+OneWire
+DHT22
+LiquidCrystal_I2C_Hangul
+DHT sensor library for ESPx
+DHT22_Clone_ESP32
+DHT sensor library

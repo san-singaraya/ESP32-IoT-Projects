@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "Singaraya Santhosh Kumar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 67.2, "left": 24.04, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -32.4,
+      "left": -159.4,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -32.4,
+      "left": -101.8,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -32.4,
+      "left": -44.2,
+      "attrs": { "color": "limegreen" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "esp:GND.1", "black", [ "v0" ] ],
+    [ "led2:C", "esp:GND.1", "black", [ "v220.8", "h19.6" ] ],
+    [ "led3:C", "esp:GND.1", "black", [ "v201.6", "h-28.4" ] ],
+    [ "esp:4", "led2:A", "gold", [ "h38.4", "v-172.8", "h-240" ] ],
+    [ "esp:15", "led1:A", "#8f4814", [ "v0", "h67.2", "v-182.4", "h-326.4" ] ],
+    [ "esp:D2", "led3:A", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
