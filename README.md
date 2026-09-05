@@ -11,51 +11,61 @@ A collection of practical **ESP32 embedded systems and IoT projects** developed 
 Basic digital output project demonstrating LED control using the ESP32.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474134751138483201
+![LED Blinking](ESP32%20Images/LED%20Blinking.PNG)
 
 ### 2. ESP32 LED Blinking with Switch
 Demonstrates controlling an LED using a push-button switch and ESP32 GPIO.\
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474296688346760193
+![LED Blinking with Switch](ESP32%20Images/ESP32%20LED%20Blinking%20with%20switch.PNG)
 
 ### 3. PIR-ESP32 Module
 Detects motion using a PIR sensor connected to the ESP32.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474298258910448641
+![PIR ESP32](ESP32%20Images/PIR-ESP32%20Module.PNG)
 
 ### 4. Ultrasonic Sensor with ESP32
 Measures distance using an ultrasonic sensor and ESP32.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474299127643208705
+![Ultrasonic Sensor](ESP32%20Images/Ultrasonic%20sensor%20ESP32.PNG)
 
 ### 5. ESP32 DHT22 Sensor
 Reads temperature and humidity from a DHT22 sensor.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474299608818068481
+![DHT22 Sensor](ESP32%20Images/ESP32%20DHT22%20sensor.PNG)
 
 ### 6. ESP32 LCD & DHT22 Sensor Monitoring System
 Reads temperature and humidity and displays the sensor data on a 16×2 LCD.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474304693210793985
+![LCD DHT22 Monitoring](ESP32%20Images/ESP32%20%28LCD%20%26%20DHT22%29%20sensor%20monitoring%20system.PNG)
 
 ### 7. ESP32 LCD1602 I2C
 Demonstrates displaying information using a 16×2 I2C LCD.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474300965494203393
+![LCD1602 I2C](ESP32%20Images/ESP32%20LCD1602%20-%20I2C%20sensor.PNG)
 
 ### 8. ESP32 LCD Scrolling
 Demonstrates scrolling text on a 16×2 LCD.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474300676036854785
+![LCD Scrolling](ESP32%20Images/ESP32%20LCD%20Scrolling.PNG)
 
 ### 9. ESP32 LCD Scrolling Content
 Demonstrates displaying and scrolling content on an LCD.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474301231711969281
+![LCD Scrolling Content](ESP32%20Images/ESP32%20LCD%20Scrolling%20Content.PNG)
 
 ### 10. ESP32 Traffic Lights
 Simulates a traffic-light control system using red, yellow, and green LEDs.
 For Wokwi Simulation :
 Downloaded from https://wokwi.com/projects/474299915612610561
+![Traffic Light](ESP32%20Images/ESP32%20Traffic%20Light.PNG)
 
 ## 🛠️ Technologies & Tools
 
